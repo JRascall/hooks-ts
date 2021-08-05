@@ -1,0 +1,36 @@
+{
+  "name": "blank-typescript",
+  "version": "0.0.1",
+  "description": "Blank Typescript Document",
+  "scripts": {
+    "prebuild": "tslint -c tslint.json -p tsconfig.json --fix",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JRascall/blank-typescript.git"
+  },
+  "keywords": [
+    "Blank",
+    "Typescript",
+    "Testing",
+    "Project"
+  ],
+  "author": "Jamie Mascall",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JRascall/blank-typescript/issues"
+  },
+  "homepage": "https://github.com/JRascall/blank-typescript#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "@types/node": "^16.4.12",
+    "gulp": "^4.0.2",
+    "gulp-shell": "^0.8.0",
+    "ts-jest": "^27.0.4",
+    "tslint": "^6.1.3",
+    "tsyringe": "^4.6.0",
+    "typescript": "^4.3.5"
+  }
+}

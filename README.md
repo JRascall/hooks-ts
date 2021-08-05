@@ -1,2 +1,1 @@
-# hooks-ts
-Hooks!
+# hook-ts
